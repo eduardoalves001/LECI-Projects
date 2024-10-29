@@ -1,0 +1,53 @@
+Dec 16 10:12:07.912 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 16 10:12:07.912 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 62964.
+Dec 16 10:12:07.927 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 10:12:07.927 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\RC1-projeto3-sem-VM\project-files\dynamips 
+Dec 16 10:12:07.958 GENERAL: working_dir=C:\Users\User\GNS3\projects\RC1-projeto3-sem-VM\project-files\dynamips
+Dec 16 10:12:07.958 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\User\GNS3\projects\RC1-projeto3-sem-VM\project-files\dynamips\f972c425-8d17-46f1-b873-f2836545e2df 
+Dec 16 10:12:07.958 GENERAL: working_dir=C:\Users\User\GNS3\projects\RC1-projeto3-sem-VM\project-files\dynamips\f972c425-8d17-46f1-b873-f2836545e2df
+Dec 16 10:12:07.958 HYPERVISOR: exec_cmd: vm create ISP 3 c3725 
+Dec 16 10:12:07.958 VM: VM ISP created.
+Dec 16 10:12:07.958 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5010 
+Dec 16 10:12:07.958 HYPERVISOR: exec_cmd: c3725 get_mac_addr ISP 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm set_exec_area ISP 64 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x602361d8 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm set_ios ISP C:/Users/User/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: c3725 set_mac_addr ISP c203.06d8.0000 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:12:07.974 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-1FE-TX 
+Dec 16 10:12:12.973 HYPERVISOR: exec_cmd: nio create_udp udp-0e81042c-fdf7-47d8-a41c-a7ded9983590 10030 127.0.0.1 10031 
+Dec 16 10:12:13.238 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-0e81042c-fdf7-47d8-a41c-a7ded9983590 
+Dec 16 10:12:13.238 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:12:14.005 HYPERVISOR: exec_cmd: nio create_udp udp-6401f337-9ffc-47b1-abe4-ea98dd1b8e78 10054 127.0.0.1 10055 
+Dec 16 10:12:14.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 1 udp-6401f337-9ffc-47b1-abe4-ea98dd1b8e78 
+Dec 16 10:12:14.005 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:13:23.951 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Dec 16 10:13:23.952 VM: VM Ghost created.
+Dec 16 10:13:23.952 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/User/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 16 10:13:23.952 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Dec 16 10:13:23.952 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\User\GNS3\projects\RC1-projeto3-sem-VM\project-files\dynamips\c3725-advipservicesk9-mz.124-21.image-128.ghost' 
+Dec 16 10:13:23.952 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Dec 16 10:13:23.967 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Dec 16 10:13:23.967 HYPERVISOR: exec_cmd: vm start Ghost 
+Dec 16 10:13:24.453 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Dec 16 10:13:24.578 VM: VM Ghost shutdown.
+Dec 16 10:13:24.578 VM: VM Ghost destroyed.
+Dec 16 10:13:24.609 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:13:24.609 HYPERVISOR: exec_cmd: vm set_config ISP configs\i3_startup-config.cfg 
+Dec 16 10:13:24.609 HYPERVISOR: exec_cmd: vm start ISP 
+Dec 16 10:48:37.356 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:48:37.356 HYPERVISOR: exec_cmd: vm stop ISP 
+Dec 16 10:48:37.450 VM: VM ISP shutdown.
+Dec 16 10:48:37.450 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 16 10:48:43.134 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:48:43.135 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 16 10:48:43.694 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 16 10:48:43.698 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Dec 16 10:48:43.705 HYPERVISOR: exec_cmd: vm delete ISP 
+Dec 16 10:48:43.706 VM: VM ISP destroyed.
+Dec 16 10:48:43.710 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 10:48:43.914 HYPERVISOR: Stopped.
+Dec 16 10:48:43.914 GENERAL: reset done.

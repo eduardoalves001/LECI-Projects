@@ -1,0 +1,25 @@
+sudo ifconfig (isto mostra a interface a usar)
+sudo ip link set up dev enp0s3 (a interface é enp0s3)
+ip addr add 192.168.2.102/24 dev enp0s3
+sudo ip addr add 192.168.2.102/24 dev enp0s3
+sudo ip route add default via 192.168.2.1
+
+
+(este ficheiro encontra-se na máquina virtual que foi iniciada pelo GNS3 [com a VM LabComServer2-1], e estes comandos foram executados no terminal presente no Desktop)
+
+
+(comandos úteis:)
+sudo ifconfig
+hostname -I
+netstat -rn
+
+
+(comandos guião:)
+sudo ifconfig enp0s3 down
+sudo ifconfig enp0s3 up
+
+
+
+[beliscão agudo. Dor mesmo dor, pico agudo, pior]
+cena dor
+[pico de dor agudo transcendente mau mesmo mau intenso indubitavelmente dor; picdor mau mesmo mau pior de tudo. Dor]

@@ -1,0 +1,14 @@
+$TTL 604800
+$ORIGIN arqredes.pt.
+@	IN 	SOA 	ns1.arqredes.pt. adm.arqredes.pt. (
+			2 ; Serial
+			604800 ; Refresh
+			86400 ; Retry
+			2419200 ; Expire
+			604800) ; Negative Cache TTL
+	IN	NS 	ns1.arqredes.pt.
+ns1	IN 	A 	192.168.50.100
+@	IN 	A 	192.168.50.100
+www	IN 	A 	192.168.50.100
+siteA	IN 	A 	192.168.50.100
+hostPC	IN 	A 	192.168.50.1
