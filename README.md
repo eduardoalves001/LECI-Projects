@@ -62,5 +62,5 @@ Project Grade : 16.3
 ### Probabilistic Methods for Computer Engineering
 	
 ```
-  Project Grade : 
+  Project Grade : 16
 ```
