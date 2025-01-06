@@ -1,5 +1,7 @@
 # LECI-Projects
-Some of the Projects developed during my bachelor's degree
+Some of the Projects developed during my bachelor's degree:
+Grades with a ~ before the respective evaluation may not be 100% accurate, but around that value.
+All other values are exact.
 
 ### Algorithms and Data Structures
  ```
